@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio 1</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Rellenar</legend>
+
+                <input type="radio" name="idioma" id="ingles" />
+                <label for="ingles">Inglés</label>
+                <input type="radio" name="idioma" id="aleman" />
+                <label for="aleman">Alemán</label>
+                <input type="radio" name="idioma" id="frances" />
+                <label for="frances">Francés</label>
+
+                <div>
+                    <textarea
+                        name="texto-idioma"
+                        cols="40"
+                        rows="6"
+                        placeholder="Inserte aquí el texto"
+                    ></textarea>
+                </div>
+
+                <div>
+                    <span>Elija una fecha:</span>
+                    <input type="date" />
+                </div>
+                <div>
+                    <span>Elija una hora:</span>
+                    <input type="time" />
+                </div>
+
+                <select name="internet" id="internet" multiple>
+                    <option value="wifi">Wifi</option>
+                    <option value="cable">Cable</option>
+                    <option value="fibra">Fibra</option>
+                </select>
+
+                <div>
+                    <span>Elija un fichero:</span>
+                    <input type="file" name="file" id="file" />
+                </div>
+                <div>
+                    <span>Elija un color:</span>
+                    <input type="color" name="color" id="color" />
+                </div>
+                <div>
+                    <input type="checkbox" name="int" id="wifi" />
+                    <label for="wifi">Wifi</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="int" id="cable" />
+                    <label for="cable">Cable</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="int" id="fibra" />
+                    <label for="cable">Fibra</label>
+                </div>
+                <br>
+
+                <div>
+                    <label for="instituto">Instituto</label>
+                    <input type="text" name="instituto" id="instituto" />
+                </div>
+                <div>
+                    <label for="instituto">Estudios elegidos</label>
+                    <input type="text" name="estudios" id="estudios" />
+                </div>
+                <div>
+                    <label for="instituto">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" />
+                </div>
+                <div>
+                    <label for="instituto">Apellidos</label>
+                    <input type="text" name="apellidos" id="apellidos" />
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
